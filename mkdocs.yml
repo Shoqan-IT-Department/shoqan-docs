@@ -1,3 +1,12 @@
 site_name: Shoqan Documentation
 theme:
     name: material
+    language: ru
+plugins:
+    - search:
+        lang:
+            - ru
+            - en
+nav:
+    - Главная: "index.md"
+    - Страница поступления: "admission/admission.md"
